@@ -116,6 +116,15 @@
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="Syncfusion.SfNumericUpDown.iOS">
+      <HintPath>..\..\lib\ios-unified\Syncfusion.SfNumericUpDown.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfNumericUpDown.XForms">
+      <HintPath>..\..\lib\ios-unified\Syncfusion.SfNumericUpDown.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfNumericUpDown.XForms.iOS">
+      <HintPath>..\..\lib\ios-unified\Syncfusion.SfNumericUpDown.XForms.iOS.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />

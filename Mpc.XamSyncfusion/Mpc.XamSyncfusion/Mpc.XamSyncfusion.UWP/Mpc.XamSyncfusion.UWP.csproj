@@ -133,6 +133,21 @@
       <Name>Mpc.XamSyncfusion</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Syncfusion.SfInput.UWP">
+      <HintPath>..\..\lib\uwp\Syncfusion.SfInput.UWP.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfNumericUpDown.XForms, Version=14.2451.0.26, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\uwp\Syncfusion.SfNumericUpDown.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfNumericUpDown.XForms.UWP">
+      <HintPath>..\..\lib\uwp\Syncfusion.SfNumericUpDown.XForms.UWP.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfShared.UWP">
+      <HintPath>..\..\lib\uwp\Syncfusion.SfShared.UWP.dll</HintPath>
+    </Reference>
+  </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>

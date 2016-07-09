@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mpc.XamSyncfusion.Views.NumericUpDown"
+             xmlns:numeric="clr-namespace:Syncfusion.SfNumericUpDown.XForms;assembly=Syncfusion.SfNumericUpDown.XForms"
+             Title="NumericUpDown">
+
+  <ScrollView>
+
+    <StackLayout x:Name="stcMain"
+                 Orientation="Vertical">
+      <Label Text="Xaml"
+             VerticalOptions="Center"
+             HorizontalOptions="Center" />
+
+      <numeric:SfNumericUpDown Minimum="-20"
+                               Maximum="20"
+                               Value="10"
+                               AutoReverse="True" />
+
+      <numeric:SfNumericUpDown ParsingMode="Decimal"
+                               StepValue="0.1" />
+
+      <numeric:SfNumericUpDown ParsingMode="Decimal"
+                               StepValue="0.1"
+                               MaximumDecimalDigits="1" />
+
+      <numeric:SfNumericUpDown ParsingMode="Decimal"
+                               StepValue="0.1"
+                               MaximumDecimalDigits="3" />
+
+      <numeric:SfNumericUpDown ParsingMode="Double"
+                               AllowNull="True"
+                               MaximumDecimalDigits="0"
+                               Watermark="AllowNull" />
+
+      <numeric:SfNumericUpDown FormatString="c" />
+
+      <!--<numeric:SfNumericUpDown FormatString="c"
+                             Culture="pt-PT" />-->
+
+      <numeric:SfNumericUpDown FormatString="n" />
+
+      <numeric:SfNumericUpDown FormatString="p"
+                               StepValue="1"
+                               PercentDisplayMode="Value" />
+
+      <numeric:SfNumericUpDown FormatString="p"
+                               StepValue="1"
+                               PercentDisplayMode="Compute" />
+
+      <Label Text="Code"
+             VerticalOptions="Center"
+             HorizontalOptions="Center" />
+    </StackLayout>
+  </ScrollView>
+</ContentPage>

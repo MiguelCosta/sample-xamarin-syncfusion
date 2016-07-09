@@ -119,6 +119,18 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="Syncfusion.SfInput.WP">
+      <HintPath>..\..\lib\wp81\Syncfusion.SfInput.WP.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfNumericUpDown.XForms">
+      <HintPath>..\..\lib\wp81\Syncfusion.SfNumericUpDown.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfNumericUpDown.XForms.WinPhone">
+      <HintPath>..\..\lib\wp81\Syncfusion.SfNumericUpDown.XForms.WinPhone.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfShared.WP">
+      <HintPath>..\..\lib\wp81\Syncfusion.SfShared.WP.dll</HintPath>
+    </Reference>
     <Reference Include="Xamarin.Forms.Core, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Xamarin.Forms.2.3.0.107\lib\wpa81\Xamarin.Forms.Core.dll</HintPath>
       <Private>True</Private>
