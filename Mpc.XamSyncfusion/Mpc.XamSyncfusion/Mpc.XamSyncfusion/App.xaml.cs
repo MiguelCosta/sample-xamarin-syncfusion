@@ -13,7 +13,7 @@ namespace Mpc.XamSyncfusion
         {
             InitializeComponent();
 
-            MainPage = new Mpc.XamSyncfusion.MainPage();
+            MainPage = new NavigationPage(new Mpc.XamSyncfusion.MainPage());
         }
 
         protected override void OnStart()
