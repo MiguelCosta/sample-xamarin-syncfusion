@@ -20,6 +20,10 @@
             Text="AutoComplete"
             Clicked="btnAutoCompleteClicked" />
 
+    <Button x:Name="btnBarCode"
+        Text="BarCode"
+        Clicked="btnBarCodeClicked" />
+
     <Button x:Name="btnNumericUpDown"
             Text="NumericUpDown"
             Clicked="btnNumericUpDownClicked" />

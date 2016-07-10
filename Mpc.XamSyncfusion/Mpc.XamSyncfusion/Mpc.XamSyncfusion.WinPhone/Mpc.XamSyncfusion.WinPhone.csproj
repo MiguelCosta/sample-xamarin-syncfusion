@@ -125,6 +125,15 @@
     <Reference Include="Syncfusion.SfAutoComplete.XForms.WinPhone">
       <HintPath>..\..\lib\wp81\Syncfusion.SfAutoComplete.XForms.WinPhone.dll</HintPath>
     </Reference>
+    <Reference Include="Syncfusion.SfBarcode.WP">
+      <HintPath>..\..\lib\wp81\Syncfusion.SfBarcode.WP.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfBarcode.XForms">
+      <HintPath>..\..\lib\wp81\Syncfusion.SfBarcode.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfBarcode.XForms.WinPhone">
+      <HintPath>..\..\lib\wp81\Syncfusion.SfBarcode.XForms.WinPhone.dll</HintPath>
+    </Reference>
     <Reference Include="Syncfusion.SfInput.WP">
       <HintPath>..\..\lib\wp81\Syncfusion.SfInput.WP.dll</HintPath>
     </Reference>

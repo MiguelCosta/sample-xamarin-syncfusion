@@ -24,11 +24,12 @@ namespace Mpc.XamSyncfusion.WinPhone
     {
         public MainPage()
         {
+            new Syncfusion.SfAutoComplete.XForms.WinRT.SfAutoCompleteRenderer();
+            new Syncfusion.SfBarcode.XForms.WinPhone.SfBarcodeRenderer();
+
             this.InitializeComponent();
 
             this.NavigationCacheMode = NavigationCacheMode.Required;
-
-            new Syncfusion.SfAutoComplete.XForms.WinRT.SfAutoCompleteRenderer();
 
             LoadApplication(new Mpc.XamSyncfusion.App());
         }

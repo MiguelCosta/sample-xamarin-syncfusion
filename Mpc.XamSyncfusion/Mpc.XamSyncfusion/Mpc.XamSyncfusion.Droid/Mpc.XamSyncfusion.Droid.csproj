@@ -63,6 +63,16 @@
     <Reference Include="Syncfusion.SfAutoComplete.XForms.Android">
       <HintPath>..\..\lib\android\Syncfusion.SfAutoComplete.XForms.Android.dll</HintPath>
     </Reference>
+    <Reference Include="Syncfusion.SfBarcode.Android">
+      <HintPath>..\..\lib\android\Syncfusion.SfBarcode.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfBarcode.XForms, Version=14.2451.0.26, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\android\Syncfusion.SfBarcode.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfBarcode.XForms.Android">
+      <HintPath>..\..\lib\android\Syncfusion.SfBarcode.XForms.Android.dll</HintPath>
+    </Reference>
     <Reference Include="Syncfusion.SfNumericUpDown.Android">
       <HintPath>..\..\lib\android\Syncfusion.SfNumericUpDown.Android.dll</HintPath>
     </Reference>

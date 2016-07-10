@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mpc.XamSyncfusion.Views.BarCode"
+             xmlns:barcode="clr-namespace:Syncfusion.SfBarcode.XForms;assembly=Syncfusion.SfBarcode.XForms"
+             Title="BarCode">
+
+  <ScrollView>
+    <StackLayout Orientation="Vertical">
+
+      <Label Text="CodaBar" />
+      <barcode:SfBarcode Text="12345-6/7+8"
+                             Symbology="CodaBar" />
+
+      <Label Text="Code11" />
+      <barcode:SfBarcode Text="123456-789"
+                         Symbology="Code11" />
+
+      <Label Text="Code128A" />
+      <barcode:SfBarcode Text="ABCDEF GHI-12345"
+                         Symbology="Code128A" />
+
+      <Label Text="Code128B" />
+      <barcode:SfBarcode Text="ISBN-123456"
+                         Symbology="Code128B" />
+
+      <Label Text="Code128C" />
+      <barcode:SfBarcode Text="1234578"
+                         Symbology="Code128C" />
+
+      <Label Text="Code32" />
+      <barcode:SfBarcode Text="87654321"
+                         Symbology="Code32" />
+
+      <!--<Label Text="Code39" />
+      <barcode:SfBarcode Text="87654321"
+                         Symbology="Code39" />
+
+      <Label Text="Code39Extended" />
+      <barcode:SfBarcode Text="87654321"
+                         Symbology="Code39Extended" />
+
+      <Label Text="Code93" />
+      <barcode:SfBarcode Text="87654321"
+                         Symbology="Code93" />
+
+      <Label Text="Code93Extended" />
+      <barcode:SfBarcode Text="87654321"
+                         Symbology="Code93Extended" />-->
+
+      <Label Text="DataMatrix" />
+      <barcode:SfBarcode Text="github.com/MiguelCosta"
+                         Symbology="DataMatrix">
+        <barcode:SfBarcode.SymbologySettings>
+          <barcode:DataMatrixSettings XDimension="8"
+                                      Encoding="Auto" />
+        </barcode:SfBarcode.SymbologySettings>
+      </barcode:SfBarcode>
+
+      <Label Text="QRCode" />
+      <barcode:SfBarcode x:Name="barQRCode"
+                         Text="miguelpintodacosta@gmail.com"
+                         Symbology="QRCode" />
+
+      <barcode:SfBarcode BackgroundColor="Gray" Text="www.wikipedia.org" Symbology="QRCode">
+        <barcode:SfBarcode.SymbologySettings>
+          <barcode:QRBarcodeSettings XDimension="8"
+                                     ErrorCorrectionLevel="Medium" />
+        </barcode:SfBarcode.SymbologySettings>
+      </barcode:SfBarcode>
+    </StackLayout>
+  </ScrollView>
+</ContentPage>

@@ -47,6 +47,9 @@
     <Compile Include="Views\AutoComplete.xaml.cs">
       <DependentUpon>AutoComplete.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\BarCode.xaml.cs">
+      <DependentUpon>BarCode.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\NumericUpDown.xaml.cs">
       <DependentUpon>NumericUpDown.xaml</DependentUpon>
     </Compile>
@@ -68,6 +71,9 @@
   <ItemGroup>
     <Reference Include="Syncfusion.SfAutoComplete.XForms">
       <HintPath>..\..\lib\pcl\Syncfusion.SfAutoComplete.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfBarcode.XForms">
+      <HintPath>..\..\lib\pcl\Syncfusion.SfBarcode.XForms.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.SfNumericUpDown.XForms">
       <HintPath>..\..\lib\pcl\Syncfusion.SfNumericUpDown.XForms.dll</HintPath>
@@ -93,6 +99,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Views\AutoComplete.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\BarCode.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

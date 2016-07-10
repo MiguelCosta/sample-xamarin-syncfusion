@@ -19,9 +19,11 @@ namespace Mpc.XamSyncfusion.Windows
     {
         public MainPage()
         {
+            new Syncfusion.SfAutoComplete.XForms.WinRT.SfAutoCompleteRenderer();
+            new Syncfusion.SfBarcode.XForms.WinRT.SfBarcodeRenderer();
+
             this.InitializeComponent();
 
-            new Syncfusion.SfAutoComplete.XForms.WinRT.SfAutoCompleteRenderer();
 
             LoadApplication(new Mpc.XamSyncfusion.App());
         }

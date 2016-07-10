@@ -24,10 +24,12 @@ namespace Mpc.XamSyncfusion.iOS
         {
             global::Xamarin.Forms.Forms.Init();
 
-            // this required to SfAutoComplete work
-            new Syncfusion.SfAutoComplete.XForms.iOS.SfAutoCompleteRenderer();
 
             LoadApplication(new App());
+
+            // this required to SyncFusion work
+            new Syncfusion.SfAutoComplete.XForms.iOS.SfAutoCompleteRenderer();
+            new Syncfusion.SfBarcode.XForms.iOS.SfBarcodeRenderer();
 
             return base.FinishedLaunching(app, options);
         }

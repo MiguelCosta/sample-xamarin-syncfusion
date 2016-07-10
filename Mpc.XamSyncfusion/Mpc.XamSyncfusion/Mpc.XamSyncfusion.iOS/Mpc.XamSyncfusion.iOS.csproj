@@ -125,6 +125,15 @@
     <Reference Include="Syncfusion.SfAutoComplete.XForms.iOS">
       <HintPath>..\..\lib\ios-unified\Syncfusion.SfAutoComplete.XForms.iOS.dll</HintPath>
     </Reference>
+    <Reference Include="Syncfusion.SfBarcode.iOS">
+      <HintPath>..\..\lib\ios-unified\Syncfusion.SfBarcode.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfBarcode.XForms">
+      <HintPath>..\..\lib\ios-unified\Syncfusion.SfBarcode.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfBarcode.XForms.iOS">
+      <HintPath>..\..\lib\ios-unified\Syncfusion.SfBarcode.XForms.iOS.dll</HintPath>
+    </Reference>
     <Reference Include="Syncfusion.SfNumericUpDown.iOS">
       <HintPath>..\..\lib\ios-unified\Syncfusion.SfNumericUpDown.iOS.dll</HintPath>
     </Reference>

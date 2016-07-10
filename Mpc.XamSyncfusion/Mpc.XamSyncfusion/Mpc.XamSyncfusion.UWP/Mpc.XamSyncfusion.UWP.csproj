@@ -140,6 +140,15 @@
     <Reference Include="Syncfusion.SfAutoComplete.XForms.UWP">
       <HintPath>..\..\lib\uwp\Syncfusion.SfAutoComplete.XForms.UWP.dll</HintPath>
     </Reference>
+    <Reference Include="Syncfusion.SfBarcode.UWP">
+      <HintPath>..\..\lib\uwp\Syncfusion.SfBarcode.UWP.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfBarcode.XForms">
+      <HintPath>..\..\lib\uwp\Syncfusion.SfBarcode.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfBarcode.XForms.UWP">
+      <HintPath>..\..\lib\uwp\Syncfusion.SfBarcode.XForms.UWP.dll</HintPath>
+    </Reference>
     <Reference Include="Syncfusion.SfInput.UWP">
       <HintPath>..\..\lib\uwp\Syncfusion.SfInput.UWP.dll</HintPath>
     </Reference>

@@ -12,14 +12,12 @@ namespace Mpc.XamSyncfusion
 
         private async void btnAutoCompleteClicked(object sender, EventArgs e)
         {
-            try
-            {
-                await Navigation.PushAsync(new Views.AutoComplete());
-            }
-            catch(Exception ex)
-            {
-                await DisplayAlert("Erro", ex.Message, "ok");
-            }
+            await Navigation.PushAsync(new Views.AutoComplete());
+        }
+
+        private async void btnBarCodeClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Views.BarCode());
         }
 
         private async void btnNumericUpDownClicked(object sender, EventArgs e)

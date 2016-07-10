@@ -148,6 +148,15 @@
     <Reference Include="Syncfusion.SfAutoComplete.XForms.WinRT">
       <HintPath>..\..\lib\winrt\Syncfusion.SfAutoComplete.XForms.WinRT.dll</HintPath>
     </Reference>
+    <Reference Include="Syncfusion.SfBarcode.WinRT">
+      <HintPath>..\..\lib\winrt\Syncfusion.SfBarcode.WinRT.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfBarcode.XForms">
+      <HintPath>..\..\lib\winrt\Syncfusion.SfBarcode.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfBarcode.XForms.WinRT">
+      <HintPath>..\..\lib\winrt\Syncfusion.SfBarcode.XForms.WinRT.dll</HintPath>
+    </Reference>
     <Reference Include="Syncfusion.SfInput.WinRT">
       <HintPath>..\..\lib\winrt\Syncfusion.SfInput.WinRT.dll</HintPath>
     </Reference>

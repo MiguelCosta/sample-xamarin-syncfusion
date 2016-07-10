@@ -19,10 +19,11 @@ namespace Mpc.XamSyncfusion.UWP
     {
         public MainPage()
         {
-            this.InitializeComponent();
-
-            // this required to SfAutoComplete work
+            // this required to SyncFusion work
+            new Syncfusion.SfBarcode.XForms.UWP.SfBarcodeRenderer();
             new Syncfusion.SfAutoComplete.XForms.UWP.SfAutoCompleteRenderer();
+
+            this.InitializeComponent();
 
             LoadApplication(new Mpc.XamSyncfusion.App());
         }
