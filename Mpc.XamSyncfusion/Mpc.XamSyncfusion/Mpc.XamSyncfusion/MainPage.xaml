@@ -16,8 +16,12 @@
        HorizontalOptions="Center"
        FontSize="Small" />
 
+    <Button x:Name="btnAutoComplete"
+            Text="AutoComplete"
+            Clicked="btnAutoCompleteClicked" />
+
     <Button x:Name="btnNumericUpDown"
             Text="NumericUpDown"
-            Clicked="btnSfNumericUpDownClicked" />
+            Clicked="btnNumericUpDownClicked" />
   </StackLayout>
 </ContentPage>

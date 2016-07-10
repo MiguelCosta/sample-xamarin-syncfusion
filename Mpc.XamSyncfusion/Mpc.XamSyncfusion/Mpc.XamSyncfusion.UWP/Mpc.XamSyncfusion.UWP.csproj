@@ -134,6 +134,12 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="Syncfusion.SfAutoComplete.XForms">
+      <HintPath>..\..\lib\uwp\Syncfusion.SfAutoComplete.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfAutoComplete.XForms.UWP">
+      <HintPath>..\..\lib\uwp\Syncfusion.SfAutoComplete.XForms.UWP.dll</HintPath>
+    </Reference>
     <Reference Include="Syncfusion.SfInput.UWP">
       <HintPath>..\..\lib\uwp\Syncfusion.SfInput.UWP.dll</HintPath>
     </Reference>

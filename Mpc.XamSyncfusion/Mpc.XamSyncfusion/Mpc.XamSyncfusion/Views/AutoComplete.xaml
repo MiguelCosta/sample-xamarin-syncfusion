@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mpc.XamSyncfusion.Views.AutoComplete"
+             xmlns:autocomplete="clr-namespace:Syncfusion.SfAutoComplete.XForms;assembly=Syncfusion.SfAutoComplete.XForms"
+             Title="AutoComplete">
+
+  <ScrollView>
+    <StackLayout x:Name="stcMain"
+                 Orientation="Vertical">
+      <autocomplete:SfAutoComplete Watermark="Only control" />
+
+      <autocomplete:SfAutoComplete x:Name="aucClientsBinding"
+                                   DataSource="{Binding }"
+                                   Watermark="BindingContext"
+                                   SelectedValuePath="Id"
+                                   DisplayMemberPath="Name" />
+
+      <autocomplete:SfAutoComplete x:Name="aucClientsBindingByCode"
+                                   Watermark="BindingContext by code"
+                                   SuggestionMode="Contains"
+                                   AutoCompleteMode="SuggestAppend"
+                                   MinimumPrefixCharacters="2"
+                                   PopupDelay="10"
+                                   SelectedValuePath="Id"
+                                   DisplayMemberPath="Name"
+                                   MaximumDropDownHeight="300" />
+
+      <autocomplete:SfAutoComplete x:Name="autocomplete"
+                                   Watermark="Resource"
+                                   ItemTemplate="{StaticResource itemTemplateAutoComplete}"
+                                   HeightRequest="100"
+                                   WidthRequest="400" />
+    </StackLayout>
+  </ScrollView>
+</ContentPage>

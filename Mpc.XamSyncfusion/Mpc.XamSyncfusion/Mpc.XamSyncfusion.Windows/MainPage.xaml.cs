@@ -21,6 +21,8 @@ namespace Mpc.XamSyncfusion.Windows
         {
             this.InitializeComponent();
 
+            new Syncfusion.SfAutoComplete.XForms.WinRT.SfAutoCompleteRenderer();
+
             LoadApplication(new Mpc.XamSyncfusion.App());
         }
     }

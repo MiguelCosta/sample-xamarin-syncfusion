@@ -116,6 +116,15 @@
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="Syncfusion.SfAutoComplete.iOS">
+      <HintPath>..\..\lib\ios-unified\Syncfusion.SfAutoComplete.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfAutoComplete.XForms">
+      <HintPath>..\..\lib\ios-unified\Syncfusion.SfAutoComplete.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfAutoComplete.XForms.iOS">
+      <HintPath>..\..\lib\ios-unified\Syncfusion.SfAutoComplete.XForms.iOS.dll</HintPath>
+    </Reference>
     <Reference Include="Syncfusion.SfNumericUpDown.iOS">
       <HintPath>..\..\lib\ios-unified\Syncfusion.SfNumericUpDown.iOS.dll</HintPath>
     </Reference>

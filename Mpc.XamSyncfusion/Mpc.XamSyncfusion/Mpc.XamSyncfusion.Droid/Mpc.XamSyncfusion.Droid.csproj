@@ -54,6 +54,15 @@
     </Reference>
     <Reference Include="Mono.Android" />
     <Reference Include="mscorlib" />
+    <Reference Include="Syncfusion.SfAutoComplete.Android">
+      <HintPath>..\..\lib\android\Syncfusion.SfAutoComplete.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfAutoComplete.XForms">
+      <HintPath>..\..\lib\android\Syncfusion.SfAutoComplete.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfAutoComplete.XForms.Android">
+      <HintPath>..\..\lib\android\Syncfusion.SfAutoComplete.XForms.Android.dll</HintPath>
+    </Reference>
     <Reference Include="Syncfusion.SfNumericUpDown.Android">
       <HintPath>..\..\lib\android\Syncfusion.SfNumericUpDown.Android.dll</HintPath>
     </Reference>

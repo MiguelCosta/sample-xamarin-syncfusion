@@ -119,6 +119,12 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="Syncfusion.SfAutoComplete.XForms">
+      <HintPath>..\..\lib\wp81\Syncfusion.SfAutoComplete.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfAutoComplete.XForms.WinPhone">
+      <HintPath>..\..\lib\wp81\Syncfusion.SfAutoComplete.XForms.WinPhone.dll</HintPath>
+    </Reference>
     <Reference Include="Syncfusion.SfInput.WP">
       <HintPath>..\..\lib\wp81\Syncfusion.SfInput.WP.dll</HintPath>
     </Reference>

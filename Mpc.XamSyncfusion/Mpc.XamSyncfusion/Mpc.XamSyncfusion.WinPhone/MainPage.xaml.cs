@@ -28,6 +28,8 @@ namespace Mpc.XamSyncfusion.WinPhone
 
             this.NavigationCacheMode = NavigationCacheMode.Required;
 
+            new Syncfusion.SfAutoComplete.XForms.WinRT.SfAutoCompleteRenderer();
+
             LoadApplication(new Mpc.XamSyncfusion.App());
         }
 

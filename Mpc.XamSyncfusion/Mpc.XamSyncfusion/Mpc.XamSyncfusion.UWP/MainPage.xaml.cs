@@ -21,6 +21,9 @@ namespace Mpc.XamSyncfusion.UWP
         {
             this.InitializeComponent();
 
+            // this required to SfAutoComplete work
+            new Syncfusion.SfAutoComplete.XForms.UWP.SfAutoCompleteRenderer();
+
             LoadApplication(new Mpc.XamSyncfusion.App());
         }
     }

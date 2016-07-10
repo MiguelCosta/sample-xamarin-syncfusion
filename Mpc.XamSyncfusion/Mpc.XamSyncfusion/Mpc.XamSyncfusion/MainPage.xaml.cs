@@ -10,17 +10,21 @@ namespace Mpc.XamSyncfusion
             InitializeComponent();
         }
 
-        private async void btnSfNumericUpDownClicked(object sender, EventArgs e)
+        private async void btnAutoCompleteClicked(object sender, EventArgs e)
         {
             try
             {
-                var p = new Views.NumericUpDown();
-                await Navigation.PushAsync(p);
+                await Navigation.PushAsync(new Views.AutoComplete());
             }
             catch(Exception ex)
             {
                 await DisplayAlert("Erro", ex.Message, "ok");
             }
+        }
+
+        private async void btnNumericUpDownClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Views.NumericUpDown());
         }
     }
 }

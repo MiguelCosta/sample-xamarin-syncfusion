@@ -23,6 +23,10 @@ namespace Mpc.XamSyncfusion.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
+
+            // this required to SfAutoComplete work
+            new Syncfusion.SfAutoComplete.XForms.iOS.SfAutoCompleteRenderer();
+
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);
